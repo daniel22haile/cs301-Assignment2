@@ -1,4 +1,4 @@
-let prompt = require('prompt-sync')();
+const prompt = require('prompt-sync')();
 let regHours = prompt("Enter the regular hours: ");
 let regWage = prompt("Enter the regular wage amount: ");
 let regPay = (regHours * regWage);

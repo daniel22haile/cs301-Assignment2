@@ -1,4 +1,4 @@
-let prompt = require('prompt-sync')();
-let volInLiter = prompt("Enter value in quart: ");
-let volInquart = 0.946 * parseInt(volInLiter);
-console.log(volInquart);
+const prompt = require('prompt-sync')();
+let volInquart = prompt("Enter value in quart: ");
+let volInLiter = 1.057 * parseInt(volInquart);
+console.log(volInLiter);

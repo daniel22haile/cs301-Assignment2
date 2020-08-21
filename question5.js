@@ -1,4 +1,4 @@
-let prompt = require('prompt-sync')();
+const prompt = require('prompt-sync')();
 let startMiles = prompt("Enter starting odometer reading: ");
 let endMiles = prompt("Enter enter odometer reading: ");
 let gallonsUsed = prompt("How many gallons? ");
